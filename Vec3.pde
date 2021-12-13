@@ -1,4 +1,8 @@
-//3D VECTOR LIBRARY
+//Vector Library [3D]
+//CSCI 5611 Vector 3 Library [Incomplete]
+
+//Instructions: Add 3D versions of all of the 2D vector functions
+//              Vec3 must also support the cross product.
 public class Vec3 {
   public float x, y, z;
   
@@ -121,18 +125,15 @@ public class Vec3 {
   }
 }
 
-//Interpolation of vector components
- float interpolate(float a, float b, float t){
-   return a + ((b-a)*t);
- }
+//Interpolation of vector components-- included in Vec2
  
-Vec3 interpolate(Vec3 a, Vec3 b, float t){
-  float newX = interpolate(a.x, b.x, t); //new x
-  float newY = interpolate(a.y, b.y, t);; //new y
-  float newZ = interpolate(a.z, b.z, t);; //new z
+//Vec3 interpolate(Vec3 a, Vec3 b, float t){
+//  float newX = interpolate(a.x, b.x, t); //new x
+//  float newY = interpolate(a.y, b.y, t);; //new y
+//  float newZ = interpolate(a.z, b.z, t);; //new z
   
-  return new Vec3(newX, newY, newZ);
-}
+//  return new Vec3(newX, newY, newZ);
+//}
 
 //Dot product of vector a and vector b
 float dot(Vec3 a, Vec3 b){
