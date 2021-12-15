@@ -7,7 +7,7 @@ Using a Boids-based flocking approach, the code included in this repo is used to
 ## Dependecies and Usage
 Processing is needed to run this code.
 
-Once Processing has been downloaded, the simulation can be started by running `UnderwaterExperience_BOIDS_.pde`.
+Once Processing has been downloaded, the simulation can be started by running `UnderwaterExperience_BOIDS_.pde`. <br>
 Note: Fish and shark models are included in a 'data' folder as .obj/.mtl files.
 
 ## Shark Interaction
