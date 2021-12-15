@@ -1,5 +1,4 @@
 # An Underwater Experience
-## *A project for CSCI 5611*
 ### Code used to create an underwater themed multi-agent flocking simulation.
 
 ## Summary
