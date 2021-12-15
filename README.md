@@ -8,7 +8,7 @@ Using a Boids-based flocking approach, the code included in this repo is used to
 Processing is needed to run this code.
 
 Once Processing has been downloaded, the simulation can be started by running `UnderwaterExperience_BOIDS_.pde`. <br>
-Note: Fish and shark models are included in a 'data' folder as .obj/.mtl files.
+**Note:** Fish and shark models are included in a 'data' folder as .obj/.mtl files.
 
 ## Shark Interaction
 A shark is included as an obstacle in the simulation. The fish will actively move away from the shark if they get within a certain distance of it. 
