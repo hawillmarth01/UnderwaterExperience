@@ -17,3 +17,7 @@ In addition to the main simulation files, a vector operation class is included f
 A shark is included as an obstacle in the simulation. The fish will actively move away from the shark if they get within a certain distance of it. 
 
 Once the simulation is running, the user can move the shark throughout the scene using the space bar to move the shark forward, and the arrow keys to move it up/down/left/right. Once the shark goes out of the frame, the user can "reset" the shark to the center or lower left/right corners of the frame using 'c', 'l', and 'r' respectively.
+
+## Demo
+https://user-images.githubusercontent.com/80787890/146282563-87ea9b9f-135a-4186-9bda-2760e914d3b4.mov
+
